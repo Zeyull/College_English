@@ -1,6 +1,3 @@
-import {request} from "./utils/request";
-vue.prototype.request = request;
-
 export default (params)=>{
     
     //加载中
@@ -23,9 +20,3 @@ export default (params)=>{
         })
     })
 }
-
-this.request({
-    url:"url"
-}).then(res=>{
-    console.log(res);
-})
